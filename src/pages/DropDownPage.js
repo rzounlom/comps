@@ -7,7 +7,6 @@ const DropDownPage = () => {
 
   const handleSelection = (option) => {
     setSelection(option);
-    console.log("seleced: ", option);
   };
   return (
     <div className="flex">

@@ -19,7 +19,7 @@ function ButtonPage() {
         </Button>
       </div>
       <div>
-        <Button warning outline onClick={() => console.log("clicked me")}>
+        <Button warning outline>
           <GoDatabase />
           Warning
         </Button>

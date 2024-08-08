@@ -29,7 +29,6 @@ const Dropdown = ({ options, onChange, value }) => {
     //close dropdown
     setIsOpen(false);
     //what option did the user click on?
-    // console.log(option);
     onChange(option);
   };
 
